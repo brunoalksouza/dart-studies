@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "alura-dart-asynchrony",
+            "cwd": "teory\\alura-dart-asynchrony",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dart_exceptions",
+            "cwd": "teory\\alura-dart-exceptions-nullSafety\\dart_exceptions",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dart-sintaxe-aula02",
+            "cwd": "teory\\alura-dart-sintaxe\\dart-sintaxe-aula02",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dart-sintaxe-aula03",
+            "cwd": "teory\\alura-dart-sintaxe\\dart-sintaxe-aula03",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
