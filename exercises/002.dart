@@ -1,6 +1,6 @@
 //site dos exercicios: https://www.computersciencemaster.com.br/exercicios-if-e-else/
 
-//dificl 11
+//dificil 11
 
 import 'dart:io';
 
