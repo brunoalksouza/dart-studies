@@ -11,6 +11,7 @@ void main() {
     print("The stream is finished");
   }
 
+  // ignore: unused_local_variable
   StreamSubscription mySubscriber = myStream(1, 10).listen((event) {
     if (event.isEven) {
       print("This number is Even");
