@@ -1,8 +1,8 @@
 void main() {
   bool seguirEmFrente = false;
 
+  // ignore: dead_code
   if (seguirEmFrente) {
-    print('andar');
   } else {
     print('pare');
 

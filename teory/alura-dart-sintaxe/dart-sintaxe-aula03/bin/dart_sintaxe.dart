@@ -15,7 +15,7 @@ void main(List<String> arguments) {
     'Rio de Janeiro',
     'Chapada dos Veadeiros',
     'São Paulo',
-    'Chapada dos Veadeiros',
+    'Chapada dos Vesadeiros',
   };
   print(destinosVisitados);
 
