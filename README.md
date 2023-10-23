@@ -2,7 +2,7 @@
 
 <p>
 This is a project that was developed using Dart. 
-This repository only contains random activities from my studies with dart.
+This repository only contains random exercises from my studies with dart.
 <br>
 <br>
 Feel free to send questions, criticisms and suggestions, if you have any ideas to improve the code you are welcome!
