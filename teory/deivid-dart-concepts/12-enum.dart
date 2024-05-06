@@ -1,29 +1,20 @@
 void main() {
   var pagamento = Pagamento();
-  pagamento.pagar(TipoPagamento.Boleto);
+  pagamento.pagar(TipoPagamento.BOLETO);
 }
 
 enum TipoPagamento {
-  Pix,
-  Boleto,
-  Cartao;
-}
+  PIX('Pix'),
+  BOLETO('Boleto'),
+  CARTAO('Cartão');
 
-extension ExtensionTipoPagamento on TipoPagamento {
-  String toValue() {
-    Map map = {
-      TipoPagamento.Pix: 'Pix',
-      TipoPagamento.Boleto: 'Boleto',
-      TipoPagamento.Cartao: 'Cartao',
-    };
-
-    return map[this];
-  }
+  final String value;
+  const TipoPagamento(this.value);
 }
 
 class Pagamento {
   void pagar(TipoPagamento tipoPagamento) {
-    if (tipoPagamento == 'Pix') {
+    if (tipoPagamento == "Pix") {
       print('Pagando com pix');
     } else if (tipoPagamento == 'Boleto') {
       print('Pagando com Boleto');
